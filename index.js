@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/posts', postRoute);
 
 const dbconnection =
-  'mongodb+srv://may21987:may21987@cluster0.0n05x.mongodb.net/nextcrudapi?retryWrites=true&w=majority';
+  'mongodb+srv://Thops:may21987@cluster0.ouaoe.mongodb.net/Quotes?retryWrites=true&w=majority';
 
 mongoose
   .connect(dbconnection, {
